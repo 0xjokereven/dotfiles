@@ -21,6 +21,7 @@ i use v2rayn or clash as the vpn, and if i need to use the agency in wsl so i ne
 #!/bin/sh
 
 host_ip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
+
 port=7890
 
 PROXY_SOCK5="socks5://${host_ip}:${port}"
