@@ -1,6 +1,7 @@
 #!/bin/sh
 
 host_ip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
+
 port=7890
 
 PROXY_SOCK5="socks5://${host_ip}:${port}"
