@@ -101,7 +101,7 @@ Please refer to [it](https://github.com/neovim/neovim/wiki/FAQ#how-to-use-the-wi
 Use Mason to Install StyLua
 https://github.com/JohnnyMorganz/StyLua
 
-Rename Your Host Name: in your /etc/wsl.confg
+Rename Your Host Name: in your /etc/wsl.config
 
 ```sh
 VSCODE_BIN="/mnt/d/install/Microsoft VS Code/bin"
